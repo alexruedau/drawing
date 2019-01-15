@@ -1,1 +1,5 @@
-alert("Ok");
+document.addEventListener("keydown", drawingWithKeyBoard);
+
+function drawingWithKeyBoard() {
+  alert("OMG!");
+}
